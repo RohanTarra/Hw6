@@ -241,14 +241,8 @@ The following steps are part of the study's analytical framework:
    
    -**Accuracy Metrics:** Accuracy, precision, recall, and F1-score are used to evaluate the effectiveness of classification models, such as those that forecast whether congestion will rise or decrease.
    
-graph TD;
-    A[Exploratory Data Analysis (EDA)] -->|Data Cleaning & Preprocessing| B(Feature Engineering)
-    B -->|Identify Key Mobility Factors| C(Train Machine Learning Models)
-    C -->|Cross-Validation & Hyperparameter Tuning| D(Model Evaluation)
-    D -->|Comparing Pre & Post-Smart Transportation Metrics| E(Comparative Analysis)
-    E -->|RMSE for Forecasting & Accuracy Metrics for Classification| F(Model Performance Assessment)
-    F -->|Heatmaps, GIS Analysis, & Dashboards| G(Data Visualization)
-    G -->|Insights for Urban Policy & Planning| H(Conclusions & Recommendations)
+![Experimental Design Flowchart](https://your-image-url.com/your-diagram.png)
+
 
 5. **findings Visualization:** To improve interpretation, the findings will be displayed using a variety of techniques:
    In order to determine which locations are most impacted by traffic congestion and to evaluate the efficacy of smart transportation measures, spatial visualizations like heatmaps and congestion maps will be created using **QGIS**.
