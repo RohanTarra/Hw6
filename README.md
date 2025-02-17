@@ -241,7 +241,8 @@ The following steps are part of the study's analytical framework:
    
    -**Accuracy Metrics:** Accuracy, precision, recall, and F1-score are used to evaluate the effectiveness of classification models, such as those that forecast whether congestion will rise or decrease.
    
-![Experimental Design Flowchart](https://your-image-url.com/your-diagram.png)
+![image](https://github.com/user-attachments/assets/626da498-a8b3-4245-a20b-30aefd9acc43)
+
 
 
 5. **findings Visualization:** To improve interpretation, the findings will be displayed using a variety of techniques:
