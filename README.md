@@ -255,42 +255,36 @@ The analytical framework for this study includes the following steps:
 
 ---
 
-## Software and Tools
+## Tools and Software
 
-The following software and tools will be used throughout the study:
+Throughout the study, the following programs and resources will be utilized:
 
-- **Programming Languages:**  
-  - **Python** will be used for data processing, statistical analysis, and machine learning model development. Python libraries such as **Pandas**, **NumPy**, and **Scikit-learn** will be essential for data manipulation, feature engineering, and modeling.
-  - **R** may also be used for statistical analysis and specialized models (e.g., **time-series forecasting** with **ARIMA**).
-
-- **Libraries:**
-  - **Pandas** and **NumPy**: For data manipulation and numerical operations.
-  - **Scikit-learn**: For machine learning algorithms, model evaluation, and preprocessing.
-  - **TensorFlow**: For building and training deep learning models, especially **LSTM** networks for time-series forecasting.
-  - **Statsmodels**: For statistical modeling, especially in regression analysis.
-  - **Matplotlib** and **Seaborn**: For creating static, animated, and interactive visualizations.
+The building of machine learning models, statistical analysis, and data processing will all be done in Python. Data processing, feature engineering, and modeling will require Python libraries like **Pandas**, **NumPy**, and **Scikit-learn**.
+  For statistical analysis and specialized models (such as **time-series forecasting** using **ARIMA**), **R** can also be utilized.
+    
+**Libraries:** - **NumPy** and **Pandas**: For numerical operations and data manipulation.
+  **Scikit-learn**: For preprocessing, model evaluation, and machine learning methods.
+  **TensorFlow**: For deep learning model construction and training, particularly **LSTM** networks for time-series forecasting.
+  For statistical modeling, particularly in regression analysis, see **Statsmodels**.
+  - **Seaborn** and **Matplotlib**: For making interactive, animated, and static visuals.
   
-- **GIS Tools:**
-  - **QGIS**: A powerful **open-source GIS tool** for conducting spatial analysis, mapping urban infrastructure, and visualizing traffic patterns on a geographical map. It will be particularly useful for analyzing the spatial distribution of congestion and assessing the effectiveness of smart transportation solutions.
-
-- **Computational Resources:**
-  - **Local computing resources** will be used for initial data exploration, processing, and training smaller models.
-  - For larger-scale computations and model training, cloud-based execution will be utilized:
-    - **Google Colab**: For running Python code in the cloud, with free access to GPUs for deep learning tasks.
-    - **AWS EC2**: For scalable, on-demand computational resources if more intensive computations are required.
+- **GIS Tools:** - **QGIS**: An effective **open-source GIS tool** for mapping urban infrastructure, doing spatial analysis, and displaying traffic patterns on a map. It will be especially helpful for evaluating the efficacy of smart transportation solutions and examining the spatial distribution of traffic.
+  - 
+**Computational Resources:** - **Local computer resources** will be utilized for early data processing, training smaller models, and exploration.
+  A Cloud-based execution will be used for more calculations and model training:
+    - **Google Colab**: provides free GPU access for deep learning projects while allowing Python code to run in the cloud.
+    For scalable, on-demand computing resources in the event that more complex calculations are needed, use AWS EC2.
 
 ---
 
 ## Ethical Considerations
 
-The study will adhere to ethical guidelines and data privacy regulations, ensuring the responsible use of data. The ethical considerations include:
+To ensure that data is used responsibly, the study will abide by ethical standards and data protection laws. Among the ethical factors are:
 
-- **Data Privacy:** All datasets used will be **anonymized** to ensure that no personally identifiable information (PII) is included in the analysis. Any data that could potentially identify individuals (such as GPS data or passenger information) will be either removed or anonymized prior to analysis.
+**Data Privacy:** To guarantee that no personally identifiable information (PII) is included in the study, all datasets will be **anonymized**. Before analysis, any information that might be used to identify specific people—like GPS data or passenger information—will be eliminated or anonymized.
 
-- **Compliance with Regulations:** The study will comply with relevant data privacy regulations, such as the **General Data Protection Regulation (GDPR)** in Europe or similar laws in India, ensuring that the privacy and rights of individuals are protected.
-
-- **Avoiding Biases
+The study will ensure that the privacy and rights of individuals are safeguarded by adhering to pertinent data privacy rules, such as the **General Data Protection Regulation (GDPR)** in Europe or comparable laws in India.
 
 
-📌 **This structured approach will provide a comprehensive evaluation of the impact of smart city transportation initiatives on urban mobility, leveraging data-driven methodologies to support sustainable urban planning.**
+📌 Using data-driven approaches to promote sustainable urban planning, this structured approach will offer a thorough evaluation of the effects of smart city transportation projects on urban mobility.
 
